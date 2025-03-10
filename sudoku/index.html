@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>sudoku-solver</title>
+    <title>dioxus | ⛺</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-  <link rel="preload" as="script" href="/sudoku/assets/sudoku-solver-c531df75f0c3bb57.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/sudoku/assets/sudoku-solver_bg-0d47515988c26d4a.wasm" crossorigin></head>
+  <link rel="preload" as="script" href="/./assets/sudoku-solver-dfd30ea02e15959d.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/./assets/sudoku-solver_bg-074f8a5a8e1cf890.wasm" crossorigin></head>
   <body>
     <div id="main"></div>
   <script>
             // We can't use a module script here because we need to start the script immediately when streaming
-            import("/sudoku/assets/sudoku-solver-c531df75f0c3bb57.js").then(
+            import("/./assets/sudoku-solver-dfd30ea02e15959d.js").then(
                 ({ default: init }) => {
-                init("/sudoku/assets/sudoku-solver_bg-0d47515988c26d4a.wasm").then((wasm) => {
+                init("/./assets/sudoku-solver_bg-074f8a5a8e1cf890.wasm").then((wasm) => {
                     if (wasm.__wbindgen_start == undefined) {
                     wasm.main();
                     }
